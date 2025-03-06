@@ -15,7 +15,7 @@ Ejecuta el Script:
 ```bash
 sh run.sh
 ```
-Para probar los ejemplos en https://labs.play-with-docker.com/ haga lo siguiente:
+Para probar los ejemplos en https://labs.play-with-docker.com/ use la siguente ruta:
 ```bash
 /root/Docker-3/samples/sample.java
 ```
