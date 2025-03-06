@@ -15,9 +15,9 @@ Ejecuta el Script:
 ```bash
 sh run.sh
 ```
-Para probar los ejemplos haga lo siguiente:
+Para probar los ejemplos en https://labs.play-with-docker.com/ haga lo siguiente:
 ```bash
-$(pwd)/samples/sample.java
+/root/Docker-3/samples/sample.java
 ```
 Cambie .java por la extesion del archivo a utilizar
 Nota: Se debe colocar la ruta completa del archivo para poder ser ejecutado.
