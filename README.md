@@ -15,3 +15,4 @@ Ejecuta el Script:
 ```bash
 sh run.sh
 ```
+Nota: Sedebe colocar la ruta completa del archivo para poder ser ejecutado.
