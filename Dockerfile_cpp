@@ -1,0 +1,15 @@
+FROM gcc:latest
+
+
+WORKDIR /app
+
+ARG FILENAME
+COPY ${FILENAME} .
+
+
+ENV FILENAME=${FILENAME}
+
+
+RUN g++ -o ${FILENAME%.*} ${FILENAME}
+
+CMD ["sh", "-c", "./${FILENAME%.*}"]

@@ -1,0 +1,12 @@
+FROM openjdk:11-jdk-slim
+
+WORKDIR /app
+
+ARG FILENAME
+COPY ${FILENAME} .
+
+
+ENV FILENAME=${FILENAME}
+
+
+CMD ["sh", "-c", "java ${FILENAME}"]

@@ -1,0 +1,14 @@
+FROM node:14
+
+# Establece el directorio de trabajo
+WORKDIR /app
+
+# Copia solo el archivo especificado
+ARG FILENAME
+COPY ${FILENAME} .
+
+# Define el nombre del archivo como una variable de entorno
+ENV FILENAME=${FILENAME}
+
+# Ejecuta el archivo JavaScript
+CMD ["sh", "-c", "node ${FILENAME}"]
